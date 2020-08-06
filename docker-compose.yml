@@ -28,5 +28,14 @@ services:
       WORDPRESS_DB_PASSWORD: wordpress
       WORDPRESS_DB_NAME: wordpress_db
 
+# Specify the network subnet as it can conflict with OpenVPN otherwise.
+# Make sure that the subnet assigned is not the same in use by OpenVPN.
+networks:
+  default:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.16.0.0/24
+
 volumes:
   db_data: {}
