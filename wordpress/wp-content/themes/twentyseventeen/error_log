@@ -1,0 +1,59 @@
+[04-Dec-2020 02:46:45 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[04-Dec-2020 02:46:45 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[26-Dec-2020 00:15:41 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[26-Dec-2020 00:15:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[28-Dec-2020 08:54:09 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[28-Dec-2020 08:54:09 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[30-Dec-2020 02:21:50 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[30-Dec-2020 02:21:50 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[02-Jan-2021 10:51:33 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[02-Jan-2021 10:51:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[06-Jan-2021 17:31:13 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[06-Jan-2021 17:31:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/index.php on line 18
+[06-Jan-2021 20:16:55 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[06-Jan-2021 20:16:55 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[13-Jul-2021 06:28:32 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[14-Jul-2021 14:20:51 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[18-Jul-2021 06:35:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[24-Aug-2021 13:41:46 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[26-Sep-2021 03:21:31 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[02-Oct-2021 23:43:06 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/goodproduct/public_html/wp-content/themes/twentyseventeen/functions.php on line 16

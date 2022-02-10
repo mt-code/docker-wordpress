@@ -1,0 +1,2 @@
+2021-12-31T14:25:27+00:00 CRITICAL Cannot redeclare filter_created_pages() (previously declared in /home3/goodproduct/public_html/wp-content/plugins/woocommerce/includes/wc-update-functions.php:2281) in /home3/goodproduct/public_html/wp-content/plugins/woocommerce/includes/wc-update-functions.php on line 2281
+

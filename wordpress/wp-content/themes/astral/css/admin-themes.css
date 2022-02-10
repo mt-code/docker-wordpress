@@ -1,0 +1,118 @@
+.about-wrap h2 {
+    text-align: left;
+}
+.about-wrap img {
+    box-shadow: 0px 0px 32px 14px #ccccccbf;
+}
+p.pro-feature {
+    font-size: 15px !important;
+}
+/* .row.astral-pro {
+    border-bottom: 1px solid #cccccc85;
+} */
+p.desc {
+    padding-top: 35px;
+    color: #fff;
+    text-align: right;
+    margin-right: 20px;
+}
+section#tabs {
+    padding-top: 10px;
+}
+.wrap.elw-page-welcome.about-wrap.seting-page {
+    margin: 0;
+	max-width: 98% !important;
+}
+span.astral-title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 26px;
+    margin-left: 15px;
+}
+.row.astral-pro {
+    background: #153e4d;
+}
+.about-wrap h2 {
+    margin: 21px 0;
+}
+.info-box {
+    padding: 100px;
+}
+.info-box p {
+    font-size: 17px;
+    text-align: left;
+}
+.info-box {
+    background: rgba(221, 240, 249, 0.8);
+    border: 1px solid #ccc9;
+    padding: 12px;
+}
+.row.intro-section {
+    margin-top: 30px;
+}
+a.customize-btn {
+	border-radius: 4px;
+    display: table;
+    margin: 0 auto;
+}
+a.customize-btn {
+    color: #fff;
+    background: #0e6ec4;
+    padding: 10px;
+    text-decoration: none;
+}
+a.support-btn {
+	display: initial;
+    margin: 0 auto;
+	border-radius: 4px;
+    color: #fff;
+    background: #153e4d;
+    padding: 10px;
+    text-decoration: none;
+}
+.info-box1 {
+    background: rgba(221, 240, 249, 0.8);
+    border: 1px solid #ccc9;
+    padding: 0px 0px 57px;
+}
+h3.support {
+    padding: 10px;
+    margin-top: 0;
+    color: #fff;
+    background: #153e4d;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+p.support-text {
+    padding: 40px 40px 10px;
+    text-align: center;
+}
+p.support-text1 {
+    padding: 0 30px;
+    text-align: center;
+}
+/* .col-md-12.document {
+    margin-left: 15px;
+} */
+.mywebapp-info {
+    margin-top: 35px;
+    text-align: center;
+    padding: 45px 45px 74px;
+    background: #e3f3fa;
+}
+a.mywebapp-btn {
+	display: initial;
+    margin: 0 auto;
+	border-radius: 4px;
+    color: #fff;
+    background: #153e4d;
+    padding: 10px;
+    text-decoration: none;
+}
+.mywebapp-info p {
+    margin-bottom: 34px;
+}
+a.add_page {
+    padding-left: 14px;
+}

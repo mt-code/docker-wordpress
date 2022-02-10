@@ -1,0 +1,42 @@
+2021-10-16T15:57:22+00:00 WARNING Caught exception: Premmerce\WooCommercePinterest\Pinterest\Api\PinterestApiException in file /home3/goodproduct/public_html/wp-content/plugins/woocommerce-pinterest/src/Pinterest/Api/Api.php on line 262
+Message: Request failed
+Code: 404
+Trace: #0 /home3/goodproduct/public_html/wp-content/plugins/woocommerce-pinterest/src/Pinterest/Api/Api.php(122): Premmerce\WooCommercePinterest\Pinterest\Api\Api->request('https://api.pin...', Array)
+#1 /home3/goodproduct/public_html/wp-content/plugins/woocommerce-pinterest/src/Task/PinCreationBackgroundProcess.php(175): Premmerce\WooCommercePinterest\Pinterest\Api\Api->updatePin('570901690269711...', Array)
+#2 /home3/goodproduct/public_html/wp-content/plugins/woocommerce-pinterest/src/Task/PinCreationBackgroundProcess.php(105): Premmerce\WooCommercePinterest\Task\PinCreationBackgroundProcess->runUpdate(Array)
+#3 /home3/goodproduct/public_html/wp-content/plugins/woocommerce/includes/abstracts/class-wc-background-process.php(102): Premmerce\WooCommercePinterest\Task\PinCreationBackgroundProcess->task(Array)
+#4 /home3/goodproduct/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(175): WC_Background_Process->handle()
+#5 /home3/goodproduct/public_html/wp-includes/class-wp-hook.php(287): WP_Background_Process->maybe_handle('')
+#6 /home3/goodproduct/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 /home3/goodproduct/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#8 /home3/goodproduct/public_html/wp-admin/admin-ajax.php(176): do_action('wp_ajax_wp_wooc...')
+#9 {main}
+
+2021-10-16T15:57:22+00:00 WARNING Caught exception: Premmerce\WooCommercePinterest\Pinterest\Api\PinterestApiException in file /home3/goodproduct/public_html/wp-content/plugins/woocommerce-pinterest/src/Pinterest/Api/Api.php on line 262
+Message: Request failed
+Code: 404
+Trace: #0 /home3/goodproduct/public_html/wp-content/plugins/woocommerce-pinterest/src/Pinterest/Api/Api.php(122): Premmerce\WooCommercePinterest\Pinterest\Api\Api->request('https://api.pin...', Array)
+#1 /home3/goodproduct/public_html/wp-content/plugins/woocommerce-pinterest/src/Task/PinCreationBackgroundProcess.php(175): Premmerce\WooCommercePinterest\Pinterest\Api\Api->updatePin('570901690269711...', Array)
+#2 /home3/goodproduct/public_html/wp-content/plugins/woocommerce-pinterest/src/Task/PinCreationBackgroundProcess.php(105): Premmerce\WooCommercePinterest\Task\PinCreationBackgroundProcess->runUpdate(Array)
+#3 /home3/goodproduct/public_html/wp-content/plugins/woocommerce/includes/abstracts/class-wc-background-process.php(102): Premmerce\WooCommercePinterest\Task\PinCreationBackgroundProcess->task(Array)
+#4 /home3/goodproduct/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(175): WC_Background_Process->handle()
+#5 /home3/goodproduct/public_html/wp-includes/class-wp-hook.php(287): WP_Background_Process->maybe_handle('')
+#6 /home3/goodproduct/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 /home3/goodproduct/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#8 /home3/goodproduct/public_html/wp-admin/admin-ajax.php(176): do_action('wp_ajax_wp_wooc...')
+#9 {main}
+
+2021-10-16T15:57:22+00:00 WARNING Caught exception: Premmerce\WooCommercePinterest\Pinterest\Api\PinterestApiException in file /home3/goodproduct/public_html/wp-content/plugins/woocommerce-pinterest/src/Pinterest/Api/Api.php on line 262
+Message: Request failed
+Code: 404
+Trace: #0 /home3/goodproduct/public_html/wp-content/plugins/woocommerce-pinterest/src/Pinterest/Api/Api.php(71): Premmerce\WooCommercePinterest\Pinterest\Api\Api->request('https://api.pin...', Array)
+#1 /home3/goodproduct/public_html/wp-content/plugins/woocommerce-pinterest/src/Task/PinCreationBackgroundProcess.php(122): Premmerce\WooCommercePinterest\Pinterest\Api\Api->createPin(Array)
+#2 /home3/goodproduct/public_html/wp-content/plugins/woocommerce-pinterest/src/Task/PinCreationBackgroundProcess.php(103): Premmerce\WooCommercePinterest\Task\PinCreationBackgroundProcess->runCreate(Array)
+#3 /home3/goodproduct/public_html/wp-content/plugins/woocommerce/includes/abstracts/class-wc-background-process.php(102): Premmerce\WooCommercePinterest\Task\PinCreationBackgroundProcess->task(Array)
+#4 /home3/goodproduct/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(175): WC_Background_Process->handle()
+#5 /home3/goodproduct/public_html/wp-includes/class-wp-hook.php(287): WP_Background_Process->maybe_handle('')
+#6 /home3/goodproduct/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 /home3/goodproduct/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#8 /home3/goodproduct/public_html/wp-admin/admin-ajax.php(176): do_action('wp_ajax_wp_wooc...')
+#9 {main}
+
