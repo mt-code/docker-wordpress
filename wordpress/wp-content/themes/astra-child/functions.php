@@ -26,3 +26,10 @@ if( function_exists('acf_add_options_page') ) {
         'parent_slug' 	=> $parent['menu_slug'],
     ));
 }
+
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 1 );
+//
+//
+//remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );
+//add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 20 );

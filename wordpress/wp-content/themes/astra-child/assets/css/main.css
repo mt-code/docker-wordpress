@@ -337,4 +337,8 @@
   overflow: hidden;
 }
 
+.woocommerce-product-details__short-description p {
+  margin-bottom: 10px;
+}
+
 /*# sourceMappingURL=main.css.map */
