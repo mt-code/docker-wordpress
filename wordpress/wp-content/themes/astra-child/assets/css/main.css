@@ -335,7 +335,7 @@
 }
 
 .stop-scrolling {
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 .woocommerce-product-details__short-description p {
