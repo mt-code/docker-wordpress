@@ -1,11 +1,12 @@
 .gp-mobile-header {
   height: calc(100vh - 96px);
+  top: 96px;
   z-index: 2;
   background: white;
   width: 100%;
   padding: 15px;
   overflow-y: scroll;
-  position: absolute;
+  position: fixed;
   transform: translateX(-100%);
   opacity: 0;
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
