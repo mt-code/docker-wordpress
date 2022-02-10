@@ -3,4 +3,7 @@ $breakpointMobile: 500px;
 
 @import "vendor/hamburgers/hamburgers";
 
+@import "components/gp-mobile-header";
 @import "components/gp-site-header";
+
+@import "partials/global";

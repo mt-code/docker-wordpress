@@ -72,6 +72,75 @@ if ( ! defined( 'ABSPATH' ) ) {
             'menu_class' => 'gp-site-header__scrolling-nav',
             'container_class' => 'gp-site-header__scrolling-container'
         )); ?>
+
+        <div class="gp-mobile-header">
+            <div class="gp-mobile-header__section">
+                <h3 class="gp-mobile-header__title">Home</h3>
+
+                <nav class="gp-mobile-header__nav">
+                    <?php foreach (get_field('home_menu', 'option') as $item): ?>
+                        <a href="<?php echo $item['link']; ?>" class="gp-mobile-header__nav-link"><?php echo $item['title']; ?></a>
+                    <?php endforeach; ?>
+                </nav>
+            </div>
+
+            <div class="gp-mobile-header__section">
+                <h3 class="gp-mobile-header__title">Product</h3>
+
+                <nav class="gp-mobile-header__nav">
+                    <?php foreach (get_field('product_menu', 'option') as $item): ?>
+                        <a href="<?php echo $item['link']; ?>" class="gp-mobile-header__nav-link"><?php echo $item['title']; ?></a>
+                    <?php endforeach; ?>
+                </nav>
+            </div>
+
+            <div class="gp-mobile-header__section">
+                <h3 class="gp-mobile-header__title">Follow Us</h3>
+
+                <?php $socials = get_field('socials', 'option'); ?>
+
+                <div class="gp-mobile-header__socials">
+                    <?php if ($socials['facebook_url']): ?>
+                        <a target="_blank" rel="noopener" href="<?php echo $socials['facebook_url']; ?>" class="gp-mobile-header__social">
+                            <img src="<?php echo get_stylesheet_directory_uri() . '/assets/img/icons/blue/facebook.svg'; ?>" alt="visit our facebook">
+                        </a>
+                    <?php endif; ?>
+
+                    <?php if ($socials['instagram_url']): ?>
+                        <a target="_blank" rel="noopener" href="<?php echo $socials['instagram_url']; ?>" class="gp-mobile-header__social">
+                            <img src="<?php echo get_stylesheet_directory_uri() . '/assets/img/icons/blue/instagram.svg'; ?>" alt="visit our instagram">
+                        </a>
+                    <?php endif; ?>
+
+                    <?php if ($socials['youtube_url']): ?>
+                        <a target="_blank" rel="noopener" href="<?php echo $socials['youtube_url']; ?>" class="gp-mobile-header__social">
+                            <img src="<?php echo get_stylesheet_directory_uri() . '/assets/img/icons/blue/youtube.svg'; ?>" alt="visit our youtube channel">
+                        </a>
+                    <?php endif; ?>
+
+                    <?php if ($socials['twitter_url']): ?>
+                        <a target="_blank" rel="noopener" href="<?php echo $socials['twitter_url']; ?>" class="gp-mobile-header__social">
+                            <img src="<?php echo get_stylesheet_directory_uri() . '/assets/img/icons/blue/twitter.svg'; ?>" alt="visit our twitter">
+                        </a>
+                    <?php endif; ?>
+
+                    <?php if ($socials['tiktok_url']): ?>
+                        <a target="_blank" rel="noopener" href="<?php echo $socials['tiktok_url']; ?>" class="gp-mobile-header__social">
+                            <img src="<?php echo get_stylesheet_directory_uri() . '/assets/img/icons/blue/tiktok.svg'; ?>" alt="visit our tiktok">
+                        </a>
+                    <?php endif; ?>
+                </div>
+            </div>
+
+            <?php if ($shortcode = get_field('newsletter_subscribe_shortcode', 'option')): ?>
+                <div class="gp-mobile-header__section">
+                    <h3 class="gp-mobile-header__title">Subscribe to our newsletter</h3>
+                    <p class="gp-mobile-header__subtitle">Stay updated on the latest news with our carefully curated newsletters.</p>
+
+                    <?php echo do_shortcode($shortcode); ?>
+                </div>
+            <?php endif; ?>
+        </div>
     </div>
 
     <?php astra_header_after(); ?>
@@ -84,4 +153,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
             <?php astra_content_top(); ?>
 			
-			<!--Awin verification 001-->;
+			<!--Awin verification 001-->

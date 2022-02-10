@@ -7,6 +7,22 @@ function goodproduct_init() {
         'gp_mobile_scrolling_menu'   => 'Mobile Scrolling Menu'
     ));
 
-    wp_enqueue_style('goodproduct', get_stylesheet_directory_uri() . '/assets/css/main.css', array(), '1.0.4');
-    wp_enqueue_script('goodproduct-script', get_stylesheet_directory_uri() . '/assets/js/main.js', array('jquery'), '1.0.1');
+    wp_enqueue_style('goodproduct', get_stylesheet_directory_uri() . '/assets/css/main.css', array(), '1.0.5');
+    wp_enqueue_script('goodproduct-script', get_stylesheet_directory_uri() . '/assets/js/main.js', array('jquery'), '1.0.2');
+}
+
+if( function_exists('acf_add_options_page') ) {
+
+    $parent = acf_add_options_page(array(
+        'page_title' 	=> 'Settings',
+        'menu_title' 	=> 'Settings',
+        'redirect' 		=> true
+    ));
+
+    // Configuration sub-page.
+    acf_add_options_sub_page(array(
+        'page_title' 	=> 'Header',
+        'menu_title' 	=> 'Header',
+        'parent_slug' 	=> $parent['menu_slug'],
+    ));
 }

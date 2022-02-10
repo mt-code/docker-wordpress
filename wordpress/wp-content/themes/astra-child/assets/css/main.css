@@ -98,6 +98,104 @@
   transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
+.gp-mobile-header {
+  height: calc(100vh - 96px);
+  z-index: 2;
+  background: white;
+  width: 100%;
+  padding: 15px;
+  overflow-y: scroll;
+  position: absolute;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.gp-mobile-header.is-active {
+  transform: none;
+  opacity: 1;
+}
+@media (min-width: 700px) {
+  .gp-mobile-header {
+    display: none;
+  }
+}
+.gp-mobile-header .yikes-easy-mc-success-message,
+.gp-mobile-header .yikes-easy-mc-error-message {
+  margin-bottom: 10px;
+}
+.gp-mobile-header .yikes-easy-mc-form {
+  display: flex;
+}
+.gp-mobile-header .yikes-easy-mc-form input[type=email] {
+  border-radius: 0;
+  background: white;
+  border: 1px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  padding: 10px;
+  outline: none !important;
+  height: 40px;
+}
+.gp-mobile-header .yikes-easy-mc-form button {
+  flex: 0;
+  border-radius: 0;
+  background: black;
+  margin: 0 0 0 10px;
+  min-height: 0;
+  height: 40px;
+  padding: 3px 10px 0;
+}
+.gp-mobile-header .yikes-easy-mc-form span.EMAIL-label {
+  display: none;
+}
+
+.gp-mobile-header__section {
+  text-align: left;
+}
+.gp-mobile-header__section + .gp-mobile-header__section {
+  margin-top: 25px;
+}
+
+.gp-mobile-header__title {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.gp-mobile-header__subtitle {
+  color: #999 !important;
+  margin: 5px 0 10px !important;
+}
+
+.gp-mobile-header__nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.gp-mobile-header__nav-link {
+  flex: 0 50%;
+  width: 50%;
+  padding: 10px 0;
+  font-size: 0.85rem;
+  color: #999 !important;
+}
+
+.gp-mobile-header__socials {
+  margin: 15px 0;
+}
+
+.gp-mobile-header__social {
+  display: inline-block;
+  margin: 0 10px;
+}
+.gp-mobile-header__social:first-of-type {
+  margin-left: 0;
+}
+.gp-mobile-header__social img {
+  width: 20px;
+  height: 20px;
+}
+
 .gp-site-header {
   text-align: center;
 }
@@ -233,6 +331,10 @@
 .gp-site-header__nav .menu-item.current_page_item a,
 .gp-site-header__nav .menu-item.current-menu-item a {
   color: #94d5eb !important;
+}
+
+.stop-scrolling {
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=main.css.map */
